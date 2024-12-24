@@ -4,7 +4,7 @@ const imagens = [
     "imagens/gato2.jpg",
     "imagens/gato3.jpeg",
     "imagens/gato4.jpg",
-    "imagens/gato5.jpg"
+    "imagens/gato3.jpg"
 ];
 
 let indice = 0;
