@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Natal!</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <h1>🎄 Feliz Natal! 🎄</h1>
+    <img id="imagem" src="imagens/gato1.jpg" alt="Natal" />
+
+    <button id="botao" onclick="iniciarMusicaETrocarImagens()">Clique para começar a festa!</button>
+
+    <audio id="musicaNatal" src="musica/natal.mp3" preload="auto" loop></audio>
+    <audio id="musicaSurpresa" src="musica/teteu.mp3" preload="auto" loop></audio>
+
+    <button id="botaoSurpresa" onclick="mostrarSurpresa()">Clique aqui para a surpresa de Natal 👿</button>
+
+    <div class="gif-container">
+        <img id="gif1" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWxpdmppaTNmdGkydmFzaXhsZmhnc3h0M2Fkd3JoY2g5aHJyNGJ4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GeimqsH0TLDt4tScGw/giphy.webp" alt="Surpresa Dudu" />
+        <img id="gif2" src="https://media1.tenor.com/m/-qBsG1HwR4oAAAAd/cat-dance-dancing-cat.gif" alt="Dancing Cat" />
+    </div>
+
+    <p id="mensagem">Feliz Natal do Dudu! Se você recebeu este link, significa que você é muito especial e ele agradece por mais um ano junto dele! 🎉</p>
+
+    <script src="scripts.js"></script> <!-- Link para o arquivo JS -->
+
+</body>
+</html>
