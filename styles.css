@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("https://s13.gifyu.com/images/SPFvT.gif");
+    background-image: url("imagens/SPFvT.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,20 +77,20 @@ h1 {
     display: none;
     margin-top: 20px;
     width: 100%;
-    max-width: 300px; /* Tamanho máximo fixo reduzido */
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
 }
 
 @media (max-width: 768px) {
     #gif1, #gif2 {
-        max-width: 200px; /* Tamanho ainda menor para telas médias */
+        max-width: 200px;
     }
 }
 
 @media (max-width: 480px) {
     #gif1, #gif2 {
-        max-width: 150px; /* Tamanho bem pequeno para telas muito estreitas */
+        max-width: 150px;
     }
 }
 
