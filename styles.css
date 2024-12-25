@@ -64,25 +64,34 @@ h1 {
     background-color: #6a1e9c;
 }
 
-#gif1, #gif2 {
-    display: none;
-    margin-top: 20px;
-}
-
 .gif-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
 }
 
-#gif1 {
-    width: 600px;
+#gif1, #gif2 {
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px; /* Tamanho máximo fixo reduzido */
     height: auto;
+    border-radius: 10px;
 }
 
-#gif2 {
-    width: 400px;
-    height: auto;
-    margin-left: 10px;
+@media (max-width: 768px) {
+    #gif1, #gif2 {
+        max-width: 200px; /* Tamanho ainda menor para telas médias */
+    }
+}
+
+@media (max-width: 480px) {
+    #gif1, #gif2 {
+        max-width: 150px; /* Tamanho bem pequeno para telas muito estreitas */
+    }
 }
 
 #mensagem {
